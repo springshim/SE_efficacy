@@ -1,0 +1,70 @@
+
+body {
+	margin: 20px;
+	text-align: justify;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p, a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+
+td{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;	
+}
+
+table{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.positive, .negative{
+  border: none;
+  display: inline-block;
+  font-size: xx-large;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.selected { background:salmon }
+
+#show_text {
+ 	margin: 0 auto;
+	display: block;
+	text-align: center;
+	border: 1px;
+}
+
+#hide_text{
+	display: none;
+}
+
+#autonomy_response{
+	text-align: left;
+ 	margin: 0 auto;
+	height: 100px;
+	width: 95%;
+}
+
+
+.previous, .next {
+  background-color: #f1f1f1;
+  color: black;
+  vertical-align: bottom;
+}
+
+.previous{
+	float: left;
+}
+
+.next{
+	float: right;
+}

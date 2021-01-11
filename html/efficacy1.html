@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intervention type 2 - first page</title>
+    <link rel="stylesheet" type="text/css" href="style/efficacy.css" />
+  </head>
+  <body>
+
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+
+    <h1>Intervention Type 2</h1>
+    <p>Think about your activity this past week. Name at least one thing you were able to accomplish. Write your accomplishment as the name of a trophy. You earned it!</p>
+    
+    <form>
+      <p><center> <font size="+40"> 🏆 </font> </center></p>
+      <input type="text" id="trophyname" name="trophyname"><br>
+    </form>
+
+    <p> [Trophy Name Examples] </p>
+    <ul>
+      <li>Exercised in bad weather</li>
+      <li>Exercised alone</li>
+      <li>Busy, but worked out anyway</li>
+      <li>Did my longest walk</li>
+      <li>Stuck with my plan</li>
+      <li>Had a great exercise streak</li>
+      <li>Discovered a new place to run</li>
+    </ul>
+
+      <a href="stepcount.html" class="previous">&laquo; Previous</a>
+      <a href="efficacy2.html" class="next">Next &raquo;</a>
+
+
+    <button id="addBtn">Next</button>
+
+
+  <script src="script/myscripts.js"></script>
+  </body>
+</html>
