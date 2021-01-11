@@ -1,2 +1,2 @@
 serviceAccountKey.json
-*.js
+**/html/script
